@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #2e2e2e; 
+}
+
+#canvas-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#button-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#noBtn, #yesBtn {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: #ADD8E6;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    border: 2px solid #E6E6FA;
+}
+
+#noBtn {
+    margin-left: -130px;
+    margin-top: 150px;
+}
+
+#yesBtn {
+    margin-right: -200px;
+    margin-top: 150px;
+}
+
+h2.question {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #ADD8E6;
+    z-index: 1;
+}
+
+.gif {
+    position: absolute;
+    top: 37%;
+    left: 15%;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
